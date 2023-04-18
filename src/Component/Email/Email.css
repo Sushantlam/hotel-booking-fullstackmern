@@ -1,0 +1,63 @@
+
+.intro{
+   margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 280px;
+   background-color: rgb(109, 109, 238);
+    width: 100%;
+}
+.introheading{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-sign{
+    font-size: 20px;
+    font-weight: 20px;
+    margin-top: 10px;
+    text-align: center;
+   
+}
+
+.email-save{
+    font-size: 30px;
+    font-weight: 20px;
+    
+    text-align: center;
+   
+}
+
+.button{
+    margin-top: 10px;
+    height: 80px;  
+}
+
+.input{
+    border:none;
+    outline: none;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.btn-btn{
+    padding: 12px 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    outline:none;
+    background-color: rgb(78, 167, 194);
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+
+

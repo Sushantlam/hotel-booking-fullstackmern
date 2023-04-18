@@ -1,0 +1,32 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.featureimg{
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+.featuresItem{
+    border-radius: 50px;
+    position: relative;
+    gap: 10px;
+    z-index: 1;
+
+}
+
+.titels{
+    position: absolute;
+    bottom: 10px;
+    color: white;  
+}
+
+.titels h1{
+    font-size: 30px;
+    z-index: 2;
+}
