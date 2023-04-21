@@ -7,28 +7,36 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+   
     
 }
 
 .seacrh-list-items{
     max-width: 1024px;
-   
+    gap: 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   
 }
 
 .search{
     padding: 10px;
     width: 40%;
     background-color: goldenrod;
-    
+    position: sticky;
+    top: 10px;
+    height: max-content;
     border-radius: 10px;
 }
 
+input{
+    border:none;
+    outline:none;
+}
+
 .hotel{
-    background-color: blue;
+  
     width: 70%;
 }
 

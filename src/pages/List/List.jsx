@@ -8,6 +8,7 @@ import { DateRange } from 'react-date-range'; // theme css file
 import { format } from 'date-fns';
 
 import "./List.css"
+import Hotellist from '../../Component/Hotellist/Hotellist';
 const List = () => {
   const location = useLocation()
   console.log(location)
@@ -73,8 +74,11 @@ const List = () => {
               <button className='searchBtn'>Search</button>
              </div>
             </div>
-            <div className="hotel"></div>
-            Hi
+            <div className="hotel">
+            <Hotellist/>
+            
+            </div>
+          
           </div>
         </div>
       </div>

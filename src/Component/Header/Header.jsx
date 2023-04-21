@@ -22,7 +22,7 @@ const Header = ({type}) => {
         }
     ]);
     const [open, setOpen]= useState(false)
-    const [ destination, setDestination]= useState("")
+    const [ destination, setDestination]= useState([])
     const[option, setOption]=useState({
         adult:1,
         children:0,
@@ -86,7 +86,7 @@ const Header = ({type}) => {
                     <div className="inputSection">
                         <div className="searchSection">
                             <FaBed className='icons' />
-                            <input type="text" placeholder='Where you want to go?' className='headerInput' onChange={(e)=> setDestination(e.target.value)}/>
+                            <input type="text" placeholder='Where you want to go?' className='headerInput' onChange={(e)=> setDestination([e.target.value])}/>
                         </div>
 
                         <div className="searchSection">

@@ -7,7 +7,7 @@ import {
 import Home from './pages/Home/Home';
 import List from './pages/List/List';
 import Singlepage from './pages/Singlepage.jsx/Singlepage';
-
+import "./App.css"
 
 const App = () => {
   return (
