@@ -1,0 +1,25 @@
+.footer{
+   
+    width: 100%;
+    max-width: 1024px;
+     height: 200px;
+    
+}
+
+.footerContent{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    
+    justify-content: space-between;
+  
+}
+.UL{
+    list-style: none;
+   
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}

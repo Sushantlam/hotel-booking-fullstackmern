@@ -1,0 +1,158 @@
+.container{
+   
+  
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+img{
+    display: flex;
+    justify-content: center;
+    max-width: 1024px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.content{
+    display:flex;
+    margin-top: 10px;
+    gap:10px;
+    justify-content: center;
+    max-width: 1024px;
+   width: 100%;
+  
+}
+
+.decscription{
+    width: 75%;
+   
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border: 2px solid black;
+}
+
+.sliderContent{
+    max-width: 1024px;
+    width: 100%;
+}
+
+.imageSlide{
+    width: 100%;
+}
+
+
+img{
+    display: flex;
+   width: 100%;
+   justify-content: center;
+    object-fit: cover;
+    
+}
+.icon{
+    font-size: 50px;
+    color: rgb(114, 101, 101);
+}
+.booking{
+    width: 25%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: max-content;
+    padding: 10px;
+    background-color: rgb(235, 214, 214);
+    border-radius: 5px;
+   
+
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    font-size: 20px;
+}
+
+big{
+    margin: 20px 0px;
+    
+    font-size: 30px;
+}
+
+.bookBtn{
+    padding: 10px;
+    background-color: rgb(27, 27, 219);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(100, 100, 206);
+    padding: 20px;
+}
+.slider{
+    position: sticky;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    z-index:999;
+    background-color: rgb(0, 0, 0, 0.426);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderWrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderImage{
+    width: 80vw;
+    height: 90vh;
+   
+}
+
+
+.cross{
+    position: absolute;
+    top: 22px;
+    font-size: 22px;
+    right: 165px;
+    cursor: pointer;
+    
+    
+}
+.rightarrow{
+    position: absolute;
+    top: 500px;
+    right: 180px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.leftarrow{
+    position: absolute;
+    top: 500px;
+    left: 180px;
+    cursor: pointer;
+    font-size: 22px;
+}
